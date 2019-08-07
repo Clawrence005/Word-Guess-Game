@@ -5,9 +5,9 @@
 ### Built using: ###
 
 - HTML
-- `CSS`
-- `Javascript`
-- `Svgs`
+- CSS
+- Javascript
+- Svgs
 
 	[Click here to play the game](https://warm-thicket-49184.herokuapp.com/)
 

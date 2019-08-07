@@ -1,7 +1,5 @@
 # Hangman Style Word Guess Game
 
----
-
 ### Built using: ###
 
 - HTML

@@ -5,9 +5,7 @@
 - HTML
 - CSS
 - Javascript
-- Svgs
-
----
+- SVGs
 
 ### Overview ###
 A virtual Hangman game that the svg changes if you lose the game.

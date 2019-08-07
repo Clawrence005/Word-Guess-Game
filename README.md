@@ -2,6 +2,10 @@
 
 ## Hangman Style Word Guess Game ##
 ---
+
+### Overview ###
+A virtual Hangman game that the svg changes if you lose the game.
+
 ### Built using: ###
 
 - HTML

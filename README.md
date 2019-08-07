@@ -4,7 +4,7 @@
 ---
 ### Built using: ###
 
-- `HTML`
+- HTML
 - `CSS`
 - `Javascript`
 - `Svgs`

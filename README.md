@@ -9,7 +9,7 @@
 - Javascript
 - Svgs
 
-	[Click here to play the game](https://warm-thicket-49184.herokuapp.com/)
+	[Click here to play the game](https://clawrence005.github.io/Word-Guess-Game/)
 
 gif/video goes here
 

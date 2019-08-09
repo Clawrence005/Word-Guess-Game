@@ -5,6 +5,12 @@
 var drinkArray = ["martini", "cosmo", "manhattan", "zombie", "margarita", "sidecar", "gimlet", "mojito", "daiquiri"];
 var wins = 0;
 var losses = 0;
+var imageNumber = 0;
+////////////////////////////////////////////////
+// var currentHangmanImage = '<img src="assets/hangmanPhotos/hangman' + imageNumber + '.svg" alt="hangman image" height="900" width="400"';
+////////////////////////////////////////////////
+
+
 var guessesLeft = 10;  ///guesses left
 var userGuess = [];
 var correctGuesses = [];
@@ -16,6 +22,12 @@ var showBlanks = document.getElementById('word-blanks');
 var showWins = document.getElementById('wins');
 var showLosses = document.getElementById('losses');
 var showWrongs = document.getElementById('wrong-letters');
+
+////////////////////////////////////////////////
+// var hangmanImage = document.getElementById('hangman-image')
+////////////////////////////////////////////////
+
+// 1. startGame function starts game with random word, shows blanks,
 function startGame() {
   wordToGuess = drinkArray[Math.floor(Math.random() * drinkArray.length)];
   console.log(wordToGuess);
@@ -25,7 +37,7 @@ function startGame() {
   }
   document.getElementById("word-blanks").textContent = blanks.join(" ");
 
-  //first function starts game woth random word, shows blanks,
+
 
   //reset
 
@@ -36,6 +48,7 @@ function startGame() {
   document.getElementById('wins').textContent = wins;
   document.getElementById('losses').textContent = losses;
   document.getElementById('wrong-letters').textContent = wrongGuesses;
+  // document.getElementById('hangman-image').innerHTML = currentHangmanImage;
 }
 //////////////////
 function resetGame() {
@@ -102,12 +115,13 @@ document.onkeyup = function (event) {
 }
 
 
+function changeImage() {
+  // need to check the image 
+}
+// need to create a function to call the images hangman1-8.svg
+
+// calling start game function 
 startGame();
-
-
-
-
-
 
 console.log(wins);
 console.log(losses);

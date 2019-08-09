@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   background-color: #232323;
   margin: 0;
   color: white;
@@ -43,40 +42,3 @@ h1, h2{
   /* padding: 1em; */
 }
 
-=======
-    background-color: #232323;
-    margin: 0;
-    color: white;
-    font-family: "montserrat","Avenir";
-    font-size: 3em;
-    
-  }
-  
-  h1 {
-    text-align: center;
-    line-height: 1.1;
-    font-weight: normal;
-    color: white;
-    background: steelblue;
-    margin: 0;
-    text-transform: uppercase;
-    padding: 20px 0;
-  }
-  
-  #container {
-    margin: 20px auto;
-    max-width: 600px;
-  }
-  
-  div {
-    width: 70%;
-    background: darkslategray;
-    padding-bottom: 30%;
-    float: left;
-    margin: 1.66%;
-    color: white;
-  }
-  p{
-    color: white;
-  }
->>>>>>> 223bce1f7acf58d0e2dd6b5a7cc791c945aa36b2

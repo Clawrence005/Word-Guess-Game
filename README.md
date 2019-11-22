@@ -1,8 +1,7 @@
 # Hangman Style Word Guess Game
 
 ## Overview ##
-A virtual Hangman game that the svg changes if you lose the game.
-
+A virtual Hangman game in which the svg changes on how many lives you have back. 
 ## Built using: ##
 
 - HTML

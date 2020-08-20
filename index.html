@@ -13,27 +13,28 @@
 </head>
 
 <body>
-  <div class="jumbotron">
+  <div class="header">
     <h1>Shaken Not Stirred</h1>
     <h2>A Hangman Game </h2>
+    <p id="prompt"> Press any key to guess what cocktail I'm thinking of!</p>
   </div>
-  <div class="parent" class="container">
+  <div id="parent" class="container">
     <div class="row">
-
-      <div id="image-container" class="card col-sm-4">
+      <div id="image-container" class="card col-sm-5">
         <div class="card-body">
+
           <div id="hangman-image"></div>
+          <p>Wins: <span id="wins"></span></p>
+          <p>Losses: <span id="losses"></span></p>
         </div>
       </div>
-      <div id="scoreboard" class="card col-sm-4">
+      <div id="scoreboard" class="card col-sm-6">
         <div class="card-body">
-          <h3> Press any key to guess what word I'm thinking of!</h3>
+          <h3>Word to Guess: <span id="word-blanks"></span></h3>
           <p>Hint: <span id="hint"></span></p>
-          <p>Wins:<span id="wins"></span></p>
-          <p>Losses:<span id="losses"></span></p>
-          <p>Guesses Left:<span id="guesses-left"></span></p>
-          <p>Word to Guess:<span id="word-blanks"></span></p>
-          <p>Wrong Letters:<span id="wrong-letters"></span></p>
+          <p>Guesses Left: <span id="guesses-left"></span></p>
+          <p>Wrong Letters: <span id="wrong-letters"></span></p>
+
         </div>
       </div>
     </div>

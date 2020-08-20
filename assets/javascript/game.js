@@ -1,6 +1,6 @@
 // Variables:
 var drinkArray = ["martini", "cosmo", "manhattan", "zombie", "margarita", "sidecar", "gimlet", "mojito", "daiquiri"];
-var hintArray = ["shaken not stirred", "quintessential pink drink", "New York borough", "the undead", "chips and queso", "sidecar hint", "gimlet hint", "mojito hint", "sometimes strawberry slushie"];
+var hintArray = ["shaken not stirred", "quintessential pink drink", "New York borough", "the undead", "chips and queso", "motorcycle accoutrement", "sailors' scurvy medicine", "muddled mint", "sometimes strawberry slushie"];
 var wins = 0;
 var losses = 0;
 //imageNumber updates the image through out the game.
@@ -136,7 +136,7 @@ document.onkeyup = function (event) {
       losses++;
       document.getElementById('losses').textContent = losses;
       document.getElementById("word-blanks").textContent = wordToGuess;
-
+      document.getElementById("prompt").textContent = "Press any key to start next round";
     }
     if (guessesLeft === -1) {
       alert(`you lost! The word was ${wordToGuess.toUpperCase()}. Care to play again?`);

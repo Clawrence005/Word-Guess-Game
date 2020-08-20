@@ -3,43 +3,47 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: slategrey;
+  background-color: #fcacac;
   font-family: "montserrat","Avenir";
 }
 
-/* h1, h2{
-  text-align: center;
-   line-height: 1.1; 
-  font-weight: normal;
-  color: white;
-  background: steelblue;
-  margin: 0;
-  text-transform: uppercase;
-padding: 20px 0;
-} */
-.parent{
-  border:  3px solid blue;
-  /* display: inline-flex;
-  width: 100vw;
-  height: 600px; */
+p {
+margin: 0;
+} 
+
+.header{
+  margin: 1.5rem;
+text-align: center ; 
 }
-.child{ 
-  border:  3px solid pink;
-  /* text-align: center;
-  width: 50%;  height: 600px; */
+ 
+.card{ 
+margin: 0 auto;
 }
+
 #image-container{
-  /* display: inline-flex;
-  justify-content: center; */
+  display: block;
+  text-align: center;  
+  height: 600px; 
 }
-#scoreboard {
-  /* border:  3px solid white; */
-  text-align: left;
-  /* padding: 1em; */
+
+#scoreboard{
+  display: inline-block;
+  height: 300px; 
 }
 
 img{
   width: 375px;
   height: auto;
+}
+.row{
+border: solid 3px coral ;
+  text-align: center;  
+  padding: 1rem;
+}
+
+.prompt{
+  position: absolute;
+  bottom: 1rem;
 }

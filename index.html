@@ -3,8 +3,8 @@
 <head>
 
   <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <title>Hangman Game</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -13,24 +13,29 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="jumbotron">
+    <h1>Shaken Not Stirred</h1>
+    <h2>A Hangman Game </h2>
+  </div>
+  <div class="parent" class="container">
     <div class="row">
-      <h1>Shaken Not Stirred</h1>
-      <h2>Subtitle </h2>
-      <h3 id="prompt">Prompt</h3>
-    </div>
-    <div id="image-container">
-      <span id="hangman-span"></span>
 
-      </script>
-    </div>
-    <div id="scoreboard">
-      <p>Guess what word I'm thinking of!</p>
-      <p>Wins:<span id="wins"></span></p>
-      <p>Losses:<span id="losses"></span></p>
-      <p>Guesses Left:<span id="guesses-left"></span></p>
-      <p>Word to Guess:<span id="word-blanks"></span></p>
-      <p>Wrong Letters:<span id="wrong-letters"></span></p>
+      <div id="image-container" class="card col-sm-4">
+        <div class="card-body">
+          <div id="hangman-image"></div>
+        </div>
+      </div>
+      <div id="scoreboard" class="card col-sm-4">
+        <div class="card-body">
+          <h3> Press any key to guess what word I'm thinking of!</h3>
+          <p>Hint: <span id="hint"></span></p>
+          <p>Wins:<span id="wins"></span></p>
+          <p>Losses:<span id="losses"></span></p>
+          <p>Guesses Left:<span id="guesses-left"></span></p>
+          <p>Word to Guess:<span id="word-blanks"></span></p>
+          <p>Wrong Letters:<span id="wrong-letters"></span></p>
+        </div>
+      </div>
     </div>
   </div>
 

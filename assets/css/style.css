@@ -1,44 +1,45 @@
-body {
-  background-color: #232323;
+*{
+  padding: 0;
   margin: 0;
-  color: white;
+  box-sizing: border-box;
+}
+body {
+  background-color: slategrey;
   font-family: "montserrat","Avenir";
-  font-size: 3em;
-  
 }
 
-h1, h2{
+/* h1, h2{
   text-align: center;
-  line-height: 1.1;
+   line-height: 1.1; 
   font-weight: normal;
   color: white;
   background: steelblue;
   margin: 0;
   text-transform: uppercase;
-  padding: 20px 0;
+padding: 20px 0;
+} */
+.parent{
+  border:  3px solid blue;
+  /* display: inline-flex;
+  width: 100vw;
+  height: 600px; */
 }
-
-#prompt{
-  border:  3px solid yellow;
-  color: yellow;
-  text-align: center;
+.child{ 
+  border:  3px solid pink;
+  /* text-align: center;
+  width: 50%;  height: 600px; */
 }
-
-#image-container {
-
-  border: 3px solid pink;
-  background-color: pink;
-
+#image-container{
+  /* display: inline-flex;
+  justify-content: center; */
 }
-
-.container {
-  background: darkslategray;
-
-}
-
 #scoreboard {
-  border:  3px solid white;
+  /* border:  3px solid white; */
   text-align: left;
   /* padding: 1em; */
 }
 
+img{
+  width: 375px;
+  height: auto;
+}

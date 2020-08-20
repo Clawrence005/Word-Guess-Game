@@ -1,1 +1,7 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792"><title>hangmanBasic</title><rect x="206.02" y="108.1" width="33.73" height="212.61" transform="translate(216.89 -94.81) rotate(45)" style="fill:#f1f2f2;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/><rect x="282.22" y="-30.29" width="33.73" height="341.11" transform="translate(439.35 -158.82) rotate(90)" style="fill:#f1f2f2;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/><rect x="128.53" y="123.4" width="33.73" height="593.98" style="fill:#f1f2f2;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/><line x1="49.07" y1="717.37" x2="557.56" y2="717.37" style="fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/><rect width="612" height="792" style="fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792">
+<title>hangmanBasic</title>
+<rect x="206.02" y="108.1" width="33.73" height="212.61" transform="translate(216.89 -94.81) rotate(45)" style="fill:#f1f2f2;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/>
+<rect x="282.22" y="-30.29" width="33.73" height="341.11" transform="translate(439.35 -158.82) rotate(90)" style="fill:#f1f2f2;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/>
+<rect x="128.53" y="123.4" width="33.73" height="593.98" style="fill:#f1f2f2;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/>
+<line x1="49.07" y1="717.37" x2="557.56" y2="717.37" style="fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/>
+<rect width="612" height="792" style="fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:5px"/></svg>

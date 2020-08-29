@@ -1,6 +1,6 @@
 // Variables:
 var drinkArray = ["martini", "cosmo", "manhattan", "zombie", "margarita", "sidecar", "gimlet", "mojito", "daiquiri"];
-var hintArray = ["shaken not stirred", "quintessential pink drink", "New York borough", "the undead", "chips and queso", "motorcycle accoutrement", "sailors' scurvy medicine", "muddled mint", "sometimes strawberry slushie"];
+var hintArray = ["shaken not stirred", "quintessential pink drink", "New York borough", "the undead", "chips and queso companion", "motorcycle accoutrement", "sailors' scurvy medicine", "muddled mint", "sometimes strawberry slushie"];
 var wins = 0;
 var losses = 0;
 //imageNumber updates the image through out the game.
@@ -54,13 +54,15 @@ function playNewGame() {
 
   wordToGuess = drinkArray[Math.floor(Math.random() * drinkArray.length)];
   console.log(wordToGuess);
+  currentWordPosition = drinkArray.indexOf(wordToGuess);
+  console.log('currentWordPosition :', currentWordPosition);
   blanks = [];
 
   for (var i = 0; i < wordToGuess.length; i++) {
     blanks.push(" _ ")
   }
   document.getElementById("word-blanks").textContent = blanks.join(" ");
-
+  document.getElementById('hint').textContent = hintArray[currentWordPosition];
   //first function starts game with random word, shows blanks,
 
   guessesLeft = 8;
@@ -79,7 +81,7 @@ wordPlayedAlready ${wordPlayedAlready}`);
   console.log(wrongGuesses);
   console.log(correctGuesses);
   console.log(guessesLeft);
-  console.log(wordPlayedAlready);
+  // console.log(wordPlayedAlready);
   console.log(blanks);
   console.log(showBlanks);
 }
@@ -102,7 +104,7 @@ document.onkeyup = function (event) {
       if (wordToGuess == blanks.join("")) {
         // wordPlayedAlready.push(wordToGuess);
         wins++;
-        document.getElementById("word-blanks").textContent = wordToGuess;
+        document.getElementById("word-blanks").textContent = blanks.join(" ");
         document.getElementById("wins").textContent = wins;
         alert(`you WON! the word was ${wordToGuess.toUpperCase()}. Care to play again?`);
 
@@ -137,8 +139,8 @@ document.onkeyup = function (event) {
       document.getElementById('losses').textContent = losses;
       document.getElementById("word-blanks").textContent = wordToGuess;
       document.getElementById("prompt").textContent = "Press any key to start next round";
-    }
-    if (guessesLeft === -1) {
+      // }
+      // if (guessesLeft === -1) {
       alert(`you lost! The word was ${wordToGuess.toUpperCase()}. Care to play again?`);
 
       playNewGame()
